@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: roboto;
+    background-color: #222933;
+}
+
+/* header  */
+
+.nav{
+    height: 70px;
+    width: 100%;
+    background-color: #242931;
+    box-shadow: 1px 1px rgba(78, 77, 77, 0.395);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 8%;
+}
+
+
+#nav-img{
+    height: 28px;
+    width: 130px;
+}
+
+#li_mode{
+    height: 25px;
+    width: 25px;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 10px;
+}
+
+li a{
+    color: #b7b9bc;
+    text-decoration: none;
+}
+
+#login{
+    border: 1px solid  #9A9FA5 ;
+    padding: 6px 12px;
+    border-radius:4px ;
+    color: #b7b9bc;
+    font-size: 15px;
+}
+#login:hover{
+    background-color:#b7b9bc ;
+    color: #222933 ;
+ }
+
+
+
+/* main  */
+
+main{
+    padding: 0px 8%;
+}
+
+ .option{
+    color: #d6dae0;
+    text-align: start;
+}
+
+#all{
+    font-size: 28px;
+}
+
+.heading{
+    margin-top: 80px;
+}
+
+
+h3{
+    font-weight: lighter;
+    font-size: 16px;
+    width: 30%;
+    margin-top: 5px;
+}
+
+/* Course details*/
+
+
+
+.total{
+    background-color: #232B35;
+    border: 1px solid #5d5e5f91;
+}
+
+#img{
+    height: 170px;
+    width: 100%;
+}
+
+#gd{
+    font-weight: lighter;
+    font-size: 11px;
+    padding: 5px 8px;
+    background-color: #C2410C;
+    color: #cdcfd2;
+    border: 1px solid #C2410C;
+    border-radius: 4px;
+}
+
+#amount{
+    color: #21a856;
+    font-weight: bold;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-bottom: 1px solid #5d5e5f91;
+}
+
+/* text  */
+
+h1{
+    color: #CCD2DB;
+    line-height: 2px;
+    font-size: 19px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+#Graphic{
+    color: #0C6798;
+    text-decoration: none;
+    font-weight: lighter;
+    line-height: 10px;
+    
+}
+
+.mid{
+    padding: 5px 10px;
+    
+}
+
+
+/* details button  */
+
+.material-symbols-outlined{
+    display: flex;
+    align-items: center;
+}
+
+#cheven{
+    text-decoration: none;
+    color: #CCD2DB ;
+    background-color: #2C3848;
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+#cheven:hover{
+    background-color:#414f62 ;  
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 6px;
+    margin-top: 10px;
+}
+
+.total{
+    border-radius: 4px;
+}
+
+/* total course  */
+
+.course-item{
+    padding-top: 40px;
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    border-bottom: 1px solid #5d5e5f91;
+
+}
+
+
+/* footer start from here */
+
+
+#footer-img{
+    height: 40px;
+    width: auto;
+    display: block;
+}
+
+#footer_logo{
+    padding-top: 40px;
+}
+
+
+.footer_nav{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #5d5e5f91 ;
+}
+
+.about{
+    font-size: 12px;
+    font-weight: bold;
+    color: #CCD2DB ;
+}
+
+.footer_icon{
+    color: #1D4ED8;
+}
+
+
+
+/* payment section  */
+
+
+
+.payment{
+    background-color: #eff6ff0d;
+    display: flex;
+    justify-content: space-between;
+    height: 123px;
+    position: relative;
+} 
+
+#payment_text{
+    color: #1D4ED8; 
+    font-size: 14px;
+    border-right: 1px solid #1D4ED8 ;
+    padding: 20px 8px;
+    line-height: 50px;
+    position: absolute;
+    top: 20px;
+
+}
+
+#payment-methods{
+    padding: 3px 0px;
+    height: 123px;
+    position: absolute;
+    right: 0px;
+    bottom: 2px;
+}
+
+/* copy right section  */
+
+.footer_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+
+#by{
+    color: #475363;
+}
+
+#organize{
+    color: #3B82F6;
+}
+
+
+/* end  */
